@@ -1,5 +1,5 @@
 {
-    "name": "Kotlin Dev Environment",
+    "name": "Java e Kotlin",
     "image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
     "customizations": {
         "vscode": {
