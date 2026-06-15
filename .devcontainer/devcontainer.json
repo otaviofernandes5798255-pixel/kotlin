@@ -8,5 +8,6 @@
                 "formulahendry.code-runner"
             ]
         }
-    }
+    },
+    "postCreateCommand": "sudo rm -f /etc/apt/sources.list.d/yarn.list && curl -s 'https://get.sdkman.io' | bash && source '\$HOME/.sdkman/bin/sdkman-init.sh' && sdk install kotlin"
 }
