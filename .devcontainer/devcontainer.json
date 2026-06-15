@@ -1,0 +1,16 @@
+{
+    "name": "Kotlin Dev Environment",
+    "image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "fwcd.kotlin",
+                "formulahendry.code-runner"
+            ]
+        }
+    },
+    "onCreateCommand": "sudo apt-get update && sudo apt-get install -y kotlin"
+}
